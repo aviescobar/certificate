@@ -51,6 +51,8 @@ def add_text_to_image(image, text, coordinates,
         y += font.getbbox(line.strip())[3]  # Move to the next line
 
 
+    if show:
+
                       
 
 
