@@ -41,8 +41,11 @@ def add_text_to_image(image, text, coordinates,
                       max_width=2000, # Average width of the image
                       show=False):
     draw = ImageDraw.Draw(image)
+
     font = ImageFont.truetype(str(font_path), font_size)
     wrapped_text = wrap_text(text, font, max_width)
+
+    x, y = coordinates
                       
 
 
