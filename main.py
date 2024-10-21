@@ -11,6 +11,9 @@ fronts_files_path = current_path / "fonts"
 images_files_path = current_path / "images"
 imsges_tmp_files = images_files_path / "tmp"
 
+def slugify(text):
+    return text.lower().replace(' ','_')
+
 
 
 
