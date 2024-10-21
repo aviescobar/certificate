@@ -47,6 +47,7 @@ def add_text_to_image(image, text, coordinates,
 
     x, y = coordinates
     for line in wrapped_text:
+        draw.text((x, y), line.strip(), font=font, fill=color)
 
                       
 
