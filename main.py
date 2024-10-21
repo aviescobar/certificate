@@ -67,6 +67,7 @@ if __name__ == "__main__":
     new_file_path = image_tmp_filles / f"{slugify_name}_certificate.jpg"
 
     with Image.open(base_image_path) as img:
+         add_text_to_image(
 
     
 
