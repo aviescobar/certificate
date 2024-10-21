@@ -54,6 +54,8 @@ def add_text_to_image(image, text, coordinates,
     if show:
         image.show()
 
+if __name__ == "__main__":
+
                       
 
 
