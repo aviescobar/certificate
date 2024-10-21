@@ -27,6 +27,7 @@ def wrap_text(text, font, max_width):
      words = text.split(' ')
      line = ''
      for word in words:
+         test_line = line + word + ' '
 
 
 
