@@ -18,6 +18,7 @@ def create_pdf_from_image(imsge_path, pdf_path):
     image = Image.open(image_path)
     width, height = image.size
      pdf = FPDF(unit="pt", format=[width, height])
+     pdf.add_page()
 
 
 
