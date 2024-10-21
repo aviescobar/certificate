@@ -21,6 +21,8 @@ def create_pdf_from_image(imsge_path, pdf_path):
      pdf.add_page()
      pdf.image(image_path, 0, 0, width, height)
      pdf.output(pdf_path)
+
+def wrap_text(text, font, max_width):
      
 
 
