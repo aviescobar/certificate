@@ -14,6 +14,9 @@ imsges_tmp_files = images_files_path / "tmp"
 def slugify(text):
     return text.lower().replace(' ','_')
 
+def create_pdf_from_image(imsge_path, pdf_path):
+
+
 
 
 
