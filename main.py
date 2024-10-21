@@ -65,6 +65,9 @@ if __name__ == "__main__":
     
     pdf_output = pdfs_files_path / f"{slugify_name}_certificate.pdf"
     new_file_path = image_tmp_filles / f"{slugify_name}_certificate.jpg"
+
+    with Image.open(base_image_path) as img:
+
     
 
     
