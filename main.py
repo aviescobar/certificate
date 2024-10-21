@@ -71,6 +71,10 @@ if __name__ == "__main__":
               img,
               'Bootcamp de',
                BOOTCAMP_TITLE_COORDINATES,
+               BOOTCAMP_FONT_PATH,
+               BOOTCAMP_FONT_SIZE,
+               WHITE
+         )
 
     
 
