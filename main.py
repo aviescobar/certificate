@@ -8,6 +8,8 @@ current_path = Path.cwd()
 
 pdfs_file_path = current_paht / "pdfs"
 fronts_files_path = current_path / "fonts"
+images_files_path = current_path / "images"
+
 
 
 
