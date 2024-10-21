@@ -36,7 +36,8 @@ def wrap_text(text, font, max_width):
      lines.append(line)
      return lines
 
-def add_text_to_image(image, text, coordinates, 
+def add_text_to_image(image, text, coordinates,
+                      font_path, font_size, color,
                       
 
 
