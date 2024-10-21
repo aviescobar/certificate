@@ -46,6 +46,8 @@ def add_text_to_image(image, text, coordinates,
     wrapped_text = wrap_text(text, font, max_width)
 
     x, y = coordinates
+    for line in wrapped_text:
+
                       
 
 
