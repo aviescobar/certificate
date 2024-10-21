@@ -33,6 +33,8 @@ def wrap_text(text, font, max_width):
          else:
               lines.append(line)
               line = word + ' '
+     lines.append(line)
+     return lines
 
 
 
