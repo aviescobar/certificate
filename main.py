@@ -60,6 +60,11 @@ if __name__ == "__main__":
     date = "Aprobado el 19 de Septiembre de 2023."
 
     base_image_path = images_files_path / "background.jpg"
+
+     slugify_name = slugify(full_name)
+    
+    pdf_output = pdfs_files_path / f"{slugify_name}_certificate.pdf"
+    new_file_path = image_tmp_filles / f"{slugify_name}_certificate.jpg"
     
 
     
