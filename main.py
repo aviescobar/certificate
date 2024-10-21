@@ -68,6 +68,8 @@ if __name__ == "__main__":
 
     with Image.open(base_image_path) as img:
          add_text_to_image(
+              img,
+              'Bootcamp de',
 
     
 
