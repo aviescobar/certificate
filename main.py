@@ -55,6 +55,11 @@ def add_text_to_image(image, text, coordinates,
         image.show()
 
 if __name__ == "__main__":
+    bootcamp_name = 'Python avanzado'
+    full_name = 'Eduardo de Jesús Chapa Koloffon'
+    date = "Aprobado el 19 de Septiembre de 2023."
+
+    
 
                       
 
