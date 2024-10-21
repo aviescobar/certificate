@@ -70,6 +70,7 @@ if __name__ == "__main__":
          add_text_to_image(
               img,
               'Bootcamp de',
+               BOOTCAMP_TITLE_COORDINATES,
 
     
 
