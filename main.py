@@ -39,6 +39,7 @@ def wrap_text(text, font, max_width):
 def add_text_to_image(image, text, coordinates,
                       font_path, font_size, color,
                       max_width=2000, # Average width of the image
+                      show=False):
                       
 
 
