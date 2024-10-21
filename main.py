@@ -23,6 +23,7 @@ def create_pdf_from_image(imsge_path, pdf_path):
      pdf.output(pdf_path)
 
 def wrap_text(text, font, max_width):
+    lines = []
      
 
 
