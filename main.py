@@ -59,6 +59,9 @@ if __name__ == "__main__":
     full_name = 'Eduardo de Jesús Chapa Koloffon'
     date = "Aprobado el 19 de Septiembre de 2023."
 
+    base_image_path = images_files_path / "background.jpg"
+    
+
     
 
                       
