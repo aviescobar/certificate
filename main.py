@@ -30,6 +30,7 @@ def wrap_text(text, font, max_width):
          test_line = line + word + ' '
          if font.getbbox(test_line)[2] <= max_width:
              line = test_line
+         else:
 
 
 
